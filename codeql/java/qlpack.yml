@@ -1,0 +1,4 @@
+name: custom-java
+version: 0.0.0
+dbscheme: config/semmlecode.dbscheme
+extractor: java

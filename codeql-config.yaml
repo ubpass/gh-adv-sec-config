@@ -4,4 +4,4 @@ disable-default-queries: true
 
 queries:
   - uses: ubpass/gh-adv-sec-config/security-experimental.qls@main
-  - uses: ubpass/gh-adv-sec-config/codeql@main
+  - uses: ubpass/gh-adv-sec-config/codeql/java@main
