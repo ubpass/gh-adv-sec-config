@@ -1,5 +1,5 @@
 name: "CodeQL config"
 
 queries:
-  - uses: ./security-experimental.qls
-  - uses: ./codeql
+  - uses: security-extended
+  # - uses: ./security-experimental.qls
