@@ -1,3 +1,4 @@
 name: custom-java
 version: 0.0.0
 extractor: java
+libraryPathDependencies: codeql-java
