@@ -1,4 +1,4 @@
-- description: Tyro Custom query suite selecting all high, very-high and medium security issues
+- description: Custom query suite selecting all very-high, high and medium security issues
 - qlpack: codeql-java
 - include:
     kind:
