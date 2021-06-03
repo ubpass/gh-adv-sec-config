@@ -1,0 +1,7 @@
+name: "CodeQL config"
+
+disable-default-queries: true
+
+queries:
+  - uses: ubpass/gh-adv-sec-config/security-java.qls@main
+  - uses: ubpass/gh-adv-sec-config/codeql/java@main
