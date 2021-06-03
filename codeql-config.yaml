@@ -1,5 +1,5 @@
 name: "CodeQL config"
 
 queries:
-  - uses: ./security-experimental.qls
-  - uses: ./codeql
+  - uses: ubpass/gh-adv-sec-config/security-experimental.qls@main
+  - uses: ubpass/gh-adv-sec-config/codeql@main
