@@ -1,0 +1,24 @@
+- description: Tyro Custom query suite selecting all high, very-high and medium security issues
+- qlpack: codeql-java
+- include:
+    kind:
+    - problem
+    - path-problem
+    precision:
+    - high
+    - very-high
+    tags contain:
+    - security
+- include:
+    kind:
+    - problem
+    - path-problem
+    precision:
+    - medium
+    problem.severity:
+    - error
+    - warning
+    tags contain:
+    - security
+- exclude:
+    deprecated: //
