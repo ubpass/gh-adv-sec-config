@@ -1,0 +1,30 @@
+<!DOCTYPE qhelp PUBLIC
+  "-//Semmle//qhelp//EN"
+  "qhelp.dtd">
+<qhelp>
+<overview>
+<p>Jackson-databind supports deserialisation of polymorphic types. Certain configurations of this
+feature can expose applications to the deserialization of attacker controlled java objects. By 
+using instances of classes that are known to perform unsafe object initialisation, the so called
+"gadgets", an attacker can cause malicious code to be executed by the application</p>
+</overview>
+
+<recommendation>
+<p>TODO: A few conditions must be met for this vulnerability to be exploited...</p>
+</recommendation>
+
+<example>
+<p>TODO: Some example HERE</p>
+
+<!-- <sample src="SpringBootActuators.java" /> -->
+</example>
+
+<references>
+<li>
+<a href="https://cowtowncoder.medium.com/on-jackson-cves-dont-panic-here-is-what-you-need-to-know-54cd0d6e8062">Overview of the vulnerability and recommendations</a>.
+</li>
+<li>
+<a href="https://www.cvedetails.com/cve/CVE-2017-7525/">Vulnerability bulletim</a>
+</li>
+</references>
+</qhelp>
