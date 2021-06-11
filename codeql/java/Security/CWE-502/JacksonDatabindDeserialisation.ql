@@ -5,7 +5,7 @@
  * @kind problem
  * @id java/jackson-databind-deserialisation
  * @tags security
- *       tyro/CWE-502
+ *       custom/CWE-502
  */
 
 import java
